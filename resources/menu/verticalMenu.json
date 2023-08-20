@@ -1,0 +1,96 @@
+{
+  
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "dashboard-analytics"
+    },
+    {
+      "url": "/",
+      "name": "Logout",
+      "icon": "menu-icon tf-icons bx bx-home-circle",
+      "slug": "Logout"
+    },
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Traitemant Documentaire",
+      "icon": "menu-icon tf-icons bx bx bx-book-alt",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "/pages/Livre",
+          "name": "Livre",
+          "slug": "Livre"
+        },
+        {
+          "url": "/pages/Usuels",
+          "name": "Usuels",
+          "slug": "Usuels"
+        },
+        {
+          "url": "/pages/Periodique",
+          "name": "Periodique",
+          "slug": "Periodique"
+        },
+        {
+          "url": "",
+          "name": "Rapports",
+          "slug": "pages-account-settings-connections"
+        }
+      ]
+    },
+    {
+      "name": "Gestion des prets",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "/pages/Reserver",
+          "name": "reserver",
+          "slug": "reserver"
+        },
+        {
+          "url": "/pages/Preter",
+          "name": "Preter",
+          "slug": "Preter"
+        }
+      ]
+    },
+    {
+     
+          "url": "",
+          "icon": "menu-icon tf-icons bx bx-book-add ",
+          "name": "Nouvelle aqucisition",
+          "slug": "pages-misc-under-maintenance",
+          "target": "_blank"
+        
+    },
+    {
+      "menuHeader": ""
+    },
+    {
+      "name": "Historique",
+      "icon": "menu-icon tf-icons bx bx-history",
+      "slug": "cards-basic",
+      "url": "/pages/Usuels"
+    },
+    {
+      "url": "/pages/Agent",
+      "name": "Agent",
+      "icon": "menu-icon tf-icons bx bx-user",
+      "slug": "Agent"
+    },
+    {
+      
+          "url": "/pages/Settings",
+          "name": "Mon compte",
+          "icon": "menu-icon tf-icons bx bx-cog",
+          "slug": "extended-ui-text-divider"
+       
+    }
+  ]
+}
